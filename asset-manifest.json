@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/apiweather/static/css/main.51704ed6.css",
+    "main.js": "/apiweather/static/js/main.3e914f92.js",
+    "static/media/My project.jpg": "/apiweather/static/media/My project.8d57ae1a47fd5ea5e905.jpg",
+    "index.html": "/apiweather/index.html",
+    "main.51704ed6.css.map": "/apiweather/static/css/main.51704ed6.css.map",
+    "main.3e914f92.js.map": "/apiweather/static/js/main.3e914f92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51704ed6.css",
+    "static/js/main.3e914f92.js"
+  ]
+}
