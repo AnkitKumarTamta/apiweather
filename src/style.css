@@ -1,0 +1,135 @@
+
+/*6008ee2877b5d1f3d6a4015d06831682
+754ae03dd0e6016e209e473173332b9e
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+https://api.openweathermap.org/data/2.5/weather?q=pune&appid=6008ee2877b5d1f3d6a4015d06831682
+*/
+
+/* @import url(https://fonts.googleapis.com/css?family=Poiret=One); */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css);
+
+
+
+body{
+    background: url('./Component/My\ project.jpg');
+    background-size :cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5));
+    
+}
+
+.searchdiv{
+    margin:5% 2% auto;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.search input{
+  padding: 12px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid blueviolet;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.mainbox{
+    width: 35%;
+    height: 420px;
+    background-color: #fff;
+    margin: 3% auto;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.iconbox{
+    height: 25%;
+    
+    text-align: center;
+    padding: 50px;
+}
+
+.iconbox i{
+    font-size: 80px;
+}
+
+.detailA{
+    
+    width: 70%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .detailA{
+    display: flex;
+} */
+
+
+.detailB{
+    
+    width: 30%;
+    background-color: blueviolet;
+    text-align: center;
+    color:#fff;
+    
+    
+}
+
+.detailB h2{
+    margin-top: 40px;
+}
+
+.detail2 h3{
+    font-size: 30px;
+}
+ 
+
+.coudedetails{
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.detail1 h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.otherdetails{
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+.Other{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.other1{
+    width: 30%;
+}
+
+.other2{
+    width: 70%;
+}
+
+.other1 i{
+    font-size: 22px;
+    margin-top: 17px;
+}
